@@ -1,0 +1,116 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+如需啟用螢幕閱讀器支援功能，請按下 ⌘+選項+Z 如需進一步瞭解鍵盤快速鍵，請按下 ⌘斜線
+ 
+
+h1{
+    color: aqua;
+    font-size: 16px;
+}
+body{
+    margin: 0; /* 清空瀏覽器預設樣式 */
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    text-indent: 32px; /* 首行縮排 */
+    letter-spacing: 0.5px; /* 字距 */
+}
+p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    text-indent: 32px; /* 首行縮排 */
+    letter-spacing: 0.5px; /* 字距 */
+}
+.border1{
+    border: 1px solid gray;
+}
+.border2{
+    border: 1px dashed gray;
+}
+.border3{
+    border: 1px dotted gray;
+}
+.border4{
+    border: 4px double gray;
+}
+.box1{
+    background-color: whitesmoke;
+    border: 10px solid gray;
+    width: 50%;
+    margin: 10px;
+}
+.box2{
+    background-color: white;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 10px;
+}
+.box2 ul{
+    color: darkolivegreen;
+}
+.box2 li{
+    color: cadetblue;
+}
+.wrap{ 
+    width: 80%;
+    margin-left: auto; /* 區塊水平置中 */
+    margin-right: auto; /* 區塊水平置中 */
+    background-color: pink;
+}
+.header{ 
+    background-color: aquamarine;
+}
+.content{ 
+    background-color: papayawhip;
+}
+.footer{
+    background-color: darkseagreen;
+}
